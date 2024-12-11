@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="body">
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -18,8 +18,8 @@
                     <li class="header__item"><a href="#test" class="header__link">Testimonial</a></li>
                 </ul>
                 <div class="header__tools">
+                    <input hidden type="checkbox" name="" id="switch" class="moonsun" onclick="bgChange()">
                     <label for="switch" class="header__switcher">
-                        <input type="checkbox" class="sunmoon" name="" id="switch">
                         <span class="switch"></span>
                     </label>
                     <button class="btn">book now</button>
@@ -637,5 +637,8 @@
             </div>
         </div>
     </footer>
+
+<script src="app.js"></script>
+
 </body>
 </html>
