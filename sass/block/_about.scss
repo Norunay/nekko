@@ -22,12 +22,13 @@ color: #696969;
 
 }
 .about{
+
     width: 1313px;
 height: 537px;
 top: 1124px;
 left: 63px;
 gap: 0px;
-border-radius: 40px 0px 0px 0px;
+border-radius: 40px ;
 opacity: 0px;
 background-color: #161616;
 }
@@ -63,4 +64,37 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #FFFFFF;
+}
+.btn{
+    width: 165px;
+height: 45px;
+top: 1531px;
+left: 121px;
+border-radius: 220px ;
+
+background: #C75E90;
+
+}
+.pink-cat
+{
+  
+    width: 646px;
+height: 537px;
+top: 1124px;
+left: 730px;
+gap: 0px;
+opacity: 0px;
+
+}
+.about__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    margin-left: 58px;
+}
+.about::after
+{
+    background-image: url("./img/Vector\ \(1\).png");
 }
