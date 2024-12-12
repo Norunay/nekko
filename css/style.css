@@ -1,1 +1,45 @@
-/*# sourceMappingURL=style.css.map */
+.room__wrapper {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.room__ndtitle {
+  font-size: 1em;
+  position: relative;
+}
+
+.room__ndtitle::before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: calc(50% - 22px);
+  left: -64px;
+  background: url(/ses.svg) no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: purple;
+  transform: rotate(180deg);
+  border-radius: 50%;
+}
+
+.room__ntitle {
+  font-size: 1em;
+  position: relative;
+}
+
+.room__ntitle::before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: calc(50% - 22px);
+  left: -64px;
+  background: url(/shape.svg) no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: purple;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
