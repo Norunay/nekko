@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
     <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <!-- skip -->
+        <div class="container">
+            <div class="header__inner">
+                <img src="/img/logo.svg" alt="" class="logo">
+                <ul class="header__buttons">
+                    <li class="header__item"><a href="#about" class="header__link">About Us</a></li>
+                    <li class="header__item"><a href="#room" class="header__link">Our Rooms</a></li>
+                    <li class="header__item"><a href="#care" class="header__link">Purr Care</a></li>
+                    <li class="header__item"><a href="#test" class="header__link">Testimonial</a></li>
+                </ul>
+                <div class="header__tools">
+                    <input hidden type="checkbox" name="" id="switch" class="moonsun" onclick="bgChange()">
+                    <label for="switch" class="header__switcher">
+                        <span class="switch"></span>
+                    </label>
+                    <button class="btn">book now</button>
+                </div>
+            </div>
         </div>
       </div>
     </header>
@@ -29,28 +43,19 @@
           <div class="room__wrapper">
             <img src="./Mask group (6).png" alt="" />
             <div class="room__text">
-              <p style="color: gray">
+              <p >
                 perfectly Tailored for Your Feline Friend
               </p>
-              <h2 style="font-size: 36px; color: white">Our Rooms</h2>
-              <p style="font-size: 20px; color: white" class="room__ndtitle">
+              <h2>Our Rooms</h2>
+              <p class="room__ndtitle">
                 Cozy Corners: Where Comfort Meets Contentment
               </p>
-              <p style="color: white">
-                NekoInn is more than a cat boarding facility; it's a home away
-                from home for <br />
-                your furry family members. Nestled in serene surroundings, our
-                inn offers <br />
-                a tranquil retreat for cats of all shapes, sizes, and
-                personalities. With a team of <br />
-                dedicated caregivers passionate about feline welfare, we ensure
-                every guest <br />receives love, attention, and comfort. Rest
-                easy knowing your cat is in caring <br />hands at NekoInn.
-              </p>
-              <p class="room__ntitle" style="color: white ">
+              <p>
+                NekoInn is more than a cat boarding facility; it's a home away from home for your furry family members. Nestled in serene surroundings, our inn offers a tranquil retreat for cats of all shapes, sizes, and personalities. With a team of dedicated caregivers passionate about feline welfare, we ensure every guest receives love, attention, and comfort. Rest easy knowing your cat is in caring hands at NekoInn.</p>
+              <p class="room__ntitle">
                 Palatial Purrfections: Opulence for Discerning Cats
-              </p><br>
-              <p class="room__ntitle" style="color: white">
+              </p>
+              <p class="room__ntitle">
                 Tailored Tranquility: Personalized Care for Every Cat
               </p>
             </div>
@@ -86,5 +91,8 @@
         </div>
       </div>
     </footer>
-  </body>
+
+<script src="app.js"></script>
+
+</body>
 </html>

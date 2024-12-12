@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 .room__ndtitle {
   font-size: 1em;
@@ -18,11 +19,10 @@
   background: url(/ses.svg) no-repeat;
   background-position: center;
   background-size: 70%;
-  background-color: purple;
+  background-color: $mainclr;
   transform: rotate(180deg);
   border-radius: 50%;
 }
-
 .room__ntitle {
   font-size: 1em;
   position: relative;
@@ -37,6 +37,6 @@
   background: url(/shape.svg) no-repeat;
   background-position: center;
   background-size: 70%;
-  background-color: purple;
+  background-color: $mainclr;
   border-radius: 50%;
 }
