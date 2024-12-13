@@ -10,7 +10,8 @@ a {
   text-decoration: none;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -19,12 +20,19 @@ body {
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 1440px;
   margin: 0 auto;
+}
+.container div {
+  width: 100%;
 }
 
 section {
   margin-bottom: 200px;
+}
+
+main {
+  margin-top: 200px;
 }
 
 .header {
@@ -32,6 +40,7 @@ section {
   width: 100%;
   top: 0;
   background-color: #161616;
+  z-index: 999;
 }
 
 .header__inner {
@@ -134,6 +143,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 150px;
 }
 
 .room__ndtitle {
@@ -275,10 +285,24 @@ input, select {
   color: #fff;
 }
 
+input, select, option {
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: grey;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 .btn {
   width: 236px;
   height: 56px;
-  border-radius: 25px;
+  border-radius: 40px;
   background-color: #C75E90;
   border: none;
 }
