@@ -1,0 +1,61 @@
+form {
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+   
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+input, select {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    background: #2c2c2c;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+
+
+
+
+.btn{
+    width: 236px;
+    height: 56px;
+    border-radius: 25px;
+    background-color:  #C75E90;
+   border: none;
+}
+
+.type{
+    display: flex;
+    justify-content: center;
+    
+}
+.form1{
+  font-size: 1em;
+  position: relative;
+}
+.form1::before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 7px);
+  left: -64px;
+  background: url(/ses.svg) no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: $mainclr;
+  transform: rotate(180deg);
+  border-radius: 50%;
+}

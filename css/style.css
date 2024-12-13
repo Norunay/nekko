@@ -116,10 +116,9 @@ body {
 }
 
 .room__wrapper {
-  font-size: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .room__ndtitle {
@@ -130,34 +129,106 @@ body {
 .room__ndtitle::before {
   content: "";
   position: absolute;
-  width: 44px;
-  height: 44px;
-  top: calc(50% - 22px);
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 7px);
   left: -64px;
   background: url(/ses.svg) no-repeat;
   background-position: center;
   background-size: 70%;
-  background-color: purple;
+  background-color: #C75E90;
   transform: rotate(180deg);
   border-radius: 50%;
 }
 
 .room__ntitle {
-  font-size: 1em;
+  font-size: 18px;
   position: relative;
 }
 
 .room__ntitle::before {
   content: "";
   position: absolute;
-  width: 44px;
-  height: 44px;
-  top: calc(50% - 22px);
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 16px);
   left: -64px;
   background: url(/shape.svg) no-repeat;
   background-position: center;
   background-size: 70%;
-  background-color: purple;
+  background-color: #C75E90;
+  border-radius: 50%;
+}
+
+.room__text {
+  color: white;
+}
+
+.title {
+  color: gray;
+}
+
+.title__two {
+  font-size: 36px;
+}
+
+.title__three {
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input, select {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  background: #2c2c2c;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn {
+  width: 236px;
+  height: 56px;
+  border-radius: 25px;
+  background-color: #C75E90;
+  border: none;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+}
+
+.form1 {
+  font-size: 1em;
+  position: relative;
+}
+
+.form1::before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 7px);
+  left: -64px;
+  background: url(/ses.svg) no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: #C75E90;
+  transform: rotate(180deg);
   border-radius: 50%;
 }
 

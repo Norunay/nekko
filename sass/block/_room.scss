@@ -1,8 +1,9 @@
 .room__wrapper {
-  font-size: 20px;
+  
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  
   
 }
 .room__ndtitle {
@@ -12,9 +13,9 @@
 .room__ndtitle::before {
   content: "";
   position: absolute;
-  width: 44px;
-  height: 44px;
-  top: calc(50% - 22px);
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 7px);
   left: -64px;
   background: url(/ses.svg) no-repeat;
   background-position: center;
@@ -24,19 +25,33 @@
   border-radius: 50%;
 }
 .room__ntitle {
-  font-size: 1em;
+  font-size: 18px;
   position: relative;
 }
 .room__ntitle::before {
   content: "";
   position: absolute;
-  width: 44px;
-  height: 44px;
-  top: calc(50% - 22px);
+  width: 36px;
+  height: 36px;
+  top: calc(50% - 16px);
   left: -64px;
   background: url(/shape.svg) no-repeat;
   background-position: center;
   background-size: 70%;
   background-color: $mainclr;
   border-radius: 50%;
+  
+}
+.room__text{
+  color: white;
+}
+.title{
+  color: gray;
+  
+}
+.title__two{
+  font-size: 36px;
+}
+.title__three{
+  font-size: 14px;
 }
