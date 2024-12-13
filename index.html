@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="body">
     <header class="header">
         <div class="container">
             <div class="header__inner">
-
+                <img src="/img/logo.svg" alt="" class="logo">
+                <ul class="header__buttons">
+                    <li class="header__item"><a href="#about" class="header__link">About Us</a></li>
+                    <li class="header__item"><a href="#room" class="header__link">Our Rooms</a></li>
+                    <li class="header__item"><a href="#care" class="header__link">Purr Care</a></li>
+                    <li class="header__item"><a href="#test" class="header__link">Testimonial</a></li>
+                </ul>
+                <div class="header__tools">
+                    <input hidden type="checkbox" name="" id="switch" class="moonsun" onclick="bgChange()">
+                    <label for="switch" class="header__switcher">
+                        <span class="switch"></span>
+                    </label>
+                    <button class="btn">book now</button>
+                </div>
             </div>
         </div>
+      </div>
     </header>
 
     <main class="main">
         <section class="hero">
 
 
-
+            <!-- Abdulloh -->
 
 
 
@@ -75,39 +89,40 @@
 
 
         <section class="about">
- 
-        <div class="about__all">
-            <div class="about__half">
-            <div class="about__text">
-                <p class="p">Where Feline Comfort Comes First</p><br>
-                <h1 class="h1">Your 5 Stars Purr Inn</h1><br>
-                <p>At NekoInn, we understand that your beloved feline companion deserves <br>
-                    the best care, even when you can't be there. That's why we've created a <br>
-                     haven designed specifically for cats, where every whisker is cherished and <br>
-                      every purr is celebrated. From cozy accommodations to personalized <br>
-                       attention, we strive to provide a nurturing environment where your cat can <br>
-                        relax, play, and thrive while you're away. Welcome to NekoInn, where your <br>
-                         cat's comfort and happiness are our top priorities.</p> <br>
-                <button class="btn">BOOK A PURR-SUITE</button>
-            </div>
-               <div class="img">
-          
-
-               </div>
-            </div>
-            <div class="about__half2">
-                <div class="about__img">
-                    <div class="im">
-                   <img class="imh" src="./Mask group (5).png" alt=""> 
-                   <img src="./Group 5.png" alt="">
-                   <img src="./Group 4.png" alt="">
-                   <img src="./Group 3.png" alt="">
-                   <img src="./Group 2.png" alt="">
-                   </div>
-
+            <div class="container">
+                <div class="about__all">
+                    <div class="about__half">
+                    <div class="about__text">
+                        <p class="p">Where Feline Comfort Comes First</p><br>
+                        <h1 class="h1">Your 5 Stars Purr Inn</h1><br>
+                        <p>At NekoInn, we understand that your beloved feline companion deserves <br>
+                            the best care, even when you can't be there. That's why we've created a <br>
+                             haven designed specifically for cats, where every whisker is cherished and <br>
+                              every purr is celebrated. From cozy accommodations to personalized <br>
+                               attention, we strive to provide a nurturing environment where your cat can <br>
+                                relax, play, and thrive while you're away. Welcome to NekoInn, where your <br>
+                                 cat's comfort and happiness are our top priorities.</p> <br>
+                        <button class="btn">BOOK A PURR-SUITE</button>
+                    </div>
+                       <div class="img">
+                  
+        
+                       </div>
+                    </div>
+                    <div class="about__half2">
+                        <div class="about__img">
+                            <div class="im">
+                           <img class="imh" src="./Mask group (5).png" alt=""> 
+                           <img src="./Group 5.png" alt="">
+                           <img src="./Group 4.png" alt="">
+                           <img src="./Group 3.png" alt="">
+                           <img src="./Group 2.png" alt="">
+                           </div>
+        
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
 
@@ -119,7 +134,7 @@
 
 
 
-
+            <!-- ekberlaa -->
 
 
 
@@ -181,6 +196,46 @@
         </section>
 
         <section class="room">
+            <div class="container">
+                <div class="room__wrapper">
+                  <img src="./Mask group (6).png" alt="" />
+                  <div class="room__text">
+                    <p style="color: gray">
+                      perfectly Tailored for Your Feline Friend
+                    </p>
+                    <h2 style="font-size: 36px; color: white">Our Rooms</h2>
+                    <p style="font-size: 20px; color: white" class="room__ndtitle">
+                      Cozy Corners: Where Comfort Meets Contentment
+                    </p>
+                    <p style="color: white">
+                      NekoInn is more than a cat boarding facility; it's a home away
+                      from home for <br />
+                      your furry family members. Nestled in serene surroundings, our
+                      inn offers <br />
+                      a tranquil retreat for cats of all shapes, sizes, and
+                      personalities. With a team of <br />
+                      dedicated caregivers passionate about feline welfare, we ensure
+                      every guest <br />receives love, attention, and comfort. Rest
+                      easy knowing your cat is in caring <br />hands at NekoInn.
+                    </p>
+                    <p class="room__ntitle" style="color: white ">
+                      Palatial Purrfections: Opulence for Discerning Cats
+                    </p><br>
+                    <p class="room__ntitle" style="color: white">
+                      Tailored Tranquility: Personalized Care for Every Cat
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -247,76 +302,19 @@
         </section>
 
         <section class="care">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <div class="container">
+                <div class="care-info">
+                    <div class="care-book-now-d">
+                        <p class="care__info-Dedicated">Dedicated Care for Every Purrsonality</p>
+                        <p class="care-book-now-Purr">Purr Care</p>
+                        <p class="book-now__tx">Experience top-notch feline care with our Purr Care services. From grooming to playtime, we provide personalized attention to ensure your cat's happiness and well-being at NekoInn.</p>
+                        <div class="book-now__btn">
+                            <i class="bi bi-arrow-right-short"></i>
+                            <p class="bool-now-btn__tx">BOOK NOW</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="cats">
@@ -335,7 +333,7 @@
 
 
 
-
+            <!-- skip -->
 
 
 
@@ -440,7 +438,7 @@
 
 
 
-
+            <!-- Abdulloh -->
 
 
 
@@ -529,7 +527,7 @@
 
 
 
-
+            <!-- ekberlaa -->
 
 
 
@@ -615,7 +613,7 @@
 
 
 
-
+            <!-- Fozil -->
 
 
 
@@ -693,9 +691,14 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer__inner"></div>
+      <div class="container">
+        <div class="footer__inner">
+          <!-- elbek -->
         </div>
+      </div>
     </footer>
+
+<script src="app.js"></script>
+
 </body>
 </html>
